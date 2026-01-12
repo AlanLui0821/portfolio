@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   // GitHub Pages project site: https://alanlui0821.github.io/Portfolio/
   // 'base' must match the repository name (case-sensitive)
-  base: '/Portfolio/',
+  base: '/portfolio/',
   plugins: [react()],
   build: {
     // Build into 'docs' so GitHub Pages can serve from main/docs

@@ -33,7 +33,7 @@ export default function Hero({ heroRef }: HeroProps) {
           <p>
             Proficient in <span className="text-white font-medium">Web Application Technologies</span> with a strong foundation in communication and problem-solving.
           </p>
-          <div className="flex gap-2 items-center mt-4">
+          <div className="flex flex-col sm:flex-row gap-2 items-center mt-4">
             <span>Specializing in</span>
             <DecryptedText text="REACT / TAILWIND / NODEJS / POSTGRESQL / SOLIDITY" className="text-white text-xs md:text-sm" speed={40} />
           </div>
